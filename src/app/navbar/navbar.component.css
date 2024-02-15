@@ -1,0 +1,25 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0 2.2rem;
+  background-color: #96d7c6;
+  position: fixed;
+  width: 100% !important;
+}
+.danphe_ul {
+  display: flex;
+  gap: 2rem;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.danphe_links {
+  cursor: pointer;
+}
+label {
+  text-transform: uppercase;
+  font-weight: bold;
+}

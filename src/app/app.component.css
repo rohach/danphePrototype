@@ -1,0 +1,12 @@
+.home_container {
+  display: flex;
+}
+.home_sidebar {
+  width: 20%;
+  position: fixed;
+}
+.home_main {
+  margin-left: 20%;
+  width: 85%;
+  padding: 0.5rem;
+}

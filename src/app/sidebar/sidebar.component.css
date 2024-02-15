@@ -1,0 +1,32 @@
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: calc(100vh - 3rem);
+  padding: 0 2rem;
+  width: 100%;
+  background-color: #96d7c6;
+  margin-top: 3rem;
+}
+.danphe_ul {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgb(151, 151, 151);
+  cursor: pointer;
+}
+.first_link {
+  padding-top: 1px solid rgb(151, 151, 151);
+  margin-top: 1rem;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
